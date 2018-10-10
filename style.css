@@ -1,0 +1,75 @@
+body{
+    background: linear-gradient(to right, #7e85daa3 0%, #cc7248c2 100%); 
+    background-position: center;
+    background-size:cover;  
+}
+
+/*NAVBAR STYLE*/
+/* .header-bg{
+    background-color: #283E4A;
+} */
+.form-control:focus{
+    border-color: #28A745;
+    box-shadow:0 0 0 1px #28A745
+}
+a:not([href]):not([tabindex]){
+    color: #EDF0F3;
+}
+a:not([href]):not([tabindex]):hover{
+    color: #fff;
+}
+input.form-control.mr-sm-2{
+    margin-bottom: 3px;
+}
+
+/*FORM STYLE*/
+.form-body{
+    width:95%;
+    color:white;
+    padding: 20px 50px 30px 50px;
+    background-color:rgba(0, 0, 0, 0.7);;
+    position: relative;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 50px;
+    top: 10vh;
+    box-shadow: 1px 1px 13px 6px #0a0a0a6b;
+} 
+.animat .form-control{
+    background:transparent;
+    font-size: 20px;
+    color: white;
+    border: 0px;
+    border-radius: 0px;
+    border-bottom: 2px solid gray;
+    height: 55px;
+    margin-top: 15px;
+}
+.animat .form-control:focus{
+    background: transparent;
+    box-shadow:none;
+    color: white;
+    border-bottom-color: #28A745
+}
+
+.fa-lock,.fa-user,.fa-users,.fa-phone-square{
+    background:transparent;
+    font-size: 20px;
+    color: #ffffff78;
+    height: 55px;
+    margin-top: 15px;
+}
+
+h1{
+    font-size: 60px;
+    color: gray;
+    font-family:brush script mt;
+    margin-top: 0px;
+}
+.btn{
+    color: white;
+}
+/* FOOTER */
+footer{
+    background-color:#383239;
+}
